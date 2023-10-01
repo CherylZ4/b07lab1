@@ -130,7 +130,7 @@ public class Polynomial{
                     writer.write("+" + coefficients[i]);
                 }
             }
-            if(coefficients[i] ==-2){
+            if(coefficients[i] ==-1){
                 writer.write("-");
             }
             if (exponents[i] !=0){
