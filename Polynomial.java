@@ -72,7 +72,7 @@ public class Polynomial{
             new_coeff[polynomial.exponents[i]] += polynomial.coefficients[i];
         }
 
-        for (int i=0; i < polynomial.exponents.length; i++){
+        for (int i=0; i < this.exponents.length; i++){
              new_coeff[this.exponents[i]] += this.coefficients[i];
         }
 
